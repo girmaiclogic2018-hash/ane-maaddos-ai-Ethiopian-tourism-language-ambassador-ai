@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="50%" stop-color="#0c0a09" />
+      <stop offset="100%" stop-color="#1c1917" />
+    </linearGradient>
+
+    <linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="35%" stop-color="#F59E0B" />
+      <stop offset="75%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+
+    <linearGradient id="logoEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EE7B7" />
+      <stop offset="50%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    <linearGradient id="logoRuby" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCA5A5" />
+      <stop offset="50%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+
+    <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Left Icon Mark (x=20 to 180, y=20 to 180) -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="160" height="160" rx="38" fill="url(#logoBgGrad)" stroke="url(#logoGold)" stroke-width="3" />
+    <rect x="6" y="6" width="148" height="148" rx="32" fill="none" stroke="#F59E0B" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="4 3" />
+
+    <!-- Radiant Resonance Rings -->
+    <circle cx="80" cy="80" r="62" fill="none" stroke="url(#logoEmerald)" stroke-width="1.2" stroke-opacity="0.3" />
+    <circle cx="80" cy="80" r="48" fill="none" stroke="url(#logoGold)" stroke-width="1.5" stroke-opacity="0.4" />
+
+    <!-- Waveform Arcs -->
+    <g stroke="url(#logoEmerald)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.85">
+      <path d="M 38 62 A 24 24 0 0 0 38 98" />
+      <path d="M 28 52 A 38 38 0 0 0 28 108" stroke-width="2" opacity="0.6" />
+    </g>
+    <g stroke="url(#logoGold)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.85">
+      <path d="M 122 62 A 24 24 0 0 1 122 98" />
+      <path d="M 132 52 A 38 38 0 0 1 132 108" stroke-width="2" opacity="0.6" />
+    </g>
+
+    <!-- Central Obelisk & Cross Motif -->
+    <g filter="url(#logoGlow)">
+      <path d="M 74 34 L 86 34 L 89 126 L 71 126 Z" fill="url(#logoGold)" />
+      <rect x="77" y="46" width="6" height="8" rx="1" fill="#0C0A09" />
+      <rect x="77" y="58" width="6" height="8" rx="1" fill="#0C0A09" />
+      <rect x="77" y="70" width="6" height="8" rx="1" fill="#0C0A09" />
+      <rect x="77" y="82" width="6" height="8" rx="1" fill="#0C0A09" />
+      <rect x="76" y="98" width="8" height="14" rx="1" fill="#0C0A09" />
+
+      <!-- Horizontal Lalibela Cruciform Beam -->
+      <path d="M 50 74 L 110 74 L 110 86 L 50 86 Z" fill="url(#logoGold)" />
+      <polygon points="50,70 42,80 50,90" fill="url(#logoGold)" />
+      <polygon points="110,70 118,80 110,90" fill="url(#logoGold)" />
+
+      <!-- Crown Arch -->
+      <path d="M 74 34 Q 80 24 86 34 Z" fill="url(#logoGold)" />
+    </g>
+
+    <!-- Diamond Core -->
+    <g transform="translate(80, 80)">
+      <polygon points="0,-12 9,-3 12,0 9,3 0,12 -9,3 -12,0 -9,-3" fill="url(#logoEmerald)" stroke="#FFFFFF" stroke-width="0.8" />
+      <circle cx="0" cy="0" r="2.5" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- Typography Right Section -->
+  <g transform="translate(204, 32)">
+    <!-- Ge'ez Seal & Subtitle Badge -->
+    <g transform="translate(0, 24)">
+      <rect x="0" y="0" width="84" height="22" rx="6" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1" stroke-opacity="0.4" />
+      <text x="42" y="15" fill="#34D399" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" text-anchor="middle" letter-spacing="1.5">እኔ ማዶስ</text>
+
+      <rect x="94" y="0" width="180" height="22" rx="6" fill="#F59E0B" fill-opacity="0.15" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.4" />
+      <text x="184" y="15" fill="#FBBF24" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle" letter-spacing="1">TOURISM AMBASSADOR AI</text>
+    </g>
+
+    <!-- Main Title "ANE MADDOS" -->
+    <text x="0" y="86" fill="url(#logoGold)" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="44" font-weight="900" letter-spacing="1">ANE MADDOS</text>
+
+    <!-- AI Suffix Tag -->
+    <text x="306" y="86" fill="#34D399" font-family="'Outfit', 'Plus Jakarta Sans', sans-serif" font-size="44" font-weight="900" letter-spacing="1">AI</text>
+
+    <!-- Secondary Tagline -->
+    <text x="0" y="118" fill="#A8A29E" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="0.5">
+      Ethiopian &amp; African Heritage • Voice Translation • 3D AR Guide
+    </text>
+  </g>
+</svg>

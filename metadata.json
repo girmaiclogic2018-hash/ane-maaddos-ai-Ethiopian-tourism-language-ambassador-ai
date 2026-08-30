@@ -1,0 +1,10 @@
+{
+  "name": "ANE MAADDOS AI - Ethiopian Tourism Language Ambassador AI(አኔ ማዶስ )",
+  "description": "Premier Ethiopian, African, and global tourism language ambassador and smart tourist helper AI. Provides real-time spoken translation, interactive historical and modern landmark guides, official Ministry data, real directions, and AI-guided touring.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
